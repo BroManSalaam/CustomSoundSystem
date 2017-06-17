@@ -1,0 +1,23 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+#pane_bottomSpacing {
+	-fx-background-color: #4E5152;
+}
+
+.TextField {
+	-fx-background-color: #4E5152;
+}
+
+.button {
+    -fx-background-color: #4E5152;
+    -fx-background-radius: 0;
+    -fx-text-fill: #9BA5A8;
+    -fx-font-weight: bold;
+}
+
+.button:hover{
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+    -fx-text-fill: -fx-text-base-color;
+}
